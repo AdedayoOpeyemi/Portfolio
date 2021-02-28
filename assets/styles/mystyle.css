@@ -11,3 +11,85 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
 }
+
+#logo-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+a:hover {
+  color: blue;
+}
+
+.primary-color {
+  color: #7d73fc;
+}
+
+.main-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 60px;
+}
+
+.my-name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+}
+
+.my-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #edecff;
+}
+
+.my-description {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #c8c8d4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 24px;
+}
+
+@media (min-width: 768px) {
+  .my-name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 105px;
+    text-align: center;
+    color: #7d73fc;
+  }
+
+  .my-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    height: 72px;
+    color: #7d73fc;
+  }
+}
